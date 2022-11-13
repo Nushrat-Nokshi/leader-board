@@ -1,0 +1,131 @@
+/*top-players*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" );
+/*Common font*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#E5E5E5;
+}
+
+/*navber
+.nav{
+    display: flex;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    
+}
+logo img{
+    width: 10px;
+    height: 10px;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(75, 35, 255);
+    border: .50px solid rgba(72, 21, 253, 0.438);
+    margin-top:0px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    padding-left: 800px;
+}   
+Li a{
+    display: block ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    
+}
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}*/
+
+/*navber end*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+.container{
+    background-color: #FFFFFF;
+    width: 867px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom:10px ;
+}
+
+.section-title{
+    color: rgb(94, 7, 255);
+    font-size: 24px;
+    
+}
+.players{
+    display: grid;
+    /*one frem*/
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom:29px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+
+.Blogs{
+    display: grid;
+    /*2 in one frem*/
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.blog{
+    display: flex;
+    align-items: center;
+    margin-bottom:29px;
+}
+.blog .thumbnail img{
+    width: 220px;
+    height: 123px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.author{
+    color:#9f9f9f;
+    font-size: 16px;
+}
+.author a{
+    text-decoration: none;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+
+}
+.course{
+    display: flex;
+    align-items: center;
+    margin-bottom:29px;
+
+}
+.course .course-banner img{
+    width: 224px;
+    height: 184px;
+}
+.course-info{
+    
+}
